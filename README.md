@@ -13,9 +13,9 @@ In this project, besides vanilla YOLOv8s we also implemented attention mechanism
 
 ---------------------------------------------------
 ### ⚖ Results and Pretrained Weights 
-Pretrained Weights: [link](https://drive.google.com/drive/folders/1m8zH3VebDRmuKXfMzLrmtCr6gbXYSned?usp=sharing)__
-B: Attention modules integrated after backbone layers before concatenating (left).__
-N: Attention modules integrated before detection layers (right).__
+Pretrained Weights: [link](https://drive.google.com/drive/folders/1m8zH3VebDRmuKXfMzLrmtCr6gbXYSned?usp=sharing)<br />
+B: Attention modules integrated after backbone layers before concatenating (left).<br />
+N: Attention modules integrated before detection layers (right).
 
 | Models          | Image size    | Params(M)| mAP@0.5| mAP@0.5:0.95 |
 | -------------   |:-------------:| --------:|-------:|-------------:|
@@ -35,8 +35,8 @@ N: Attention modules integrated before detection layers (right).__
 
 ---------------------------------------------------
 ### ![analysis](https://github.com/user-attachments/assets/de756475-5233-4f18-88c0-479ed287062d) Dataset
-Full dataset is provided on Roboflow:__
-Helmet dataset: [link](https://universe.roboflow.com/datne/helmet_detection-jmhzi/dataset/3)__
+Full dataset is provided on Roboflow:<br />
+Helmet dataset: [link](https://universe.roboflow.com/datne/helmet_detection-jmhzi/dataset/3)<br />
 License_Plate dataset: [link]()__
 Sample Images
 
