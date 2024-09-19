@@ -1,0 +1,7 @@
+boxmot==10.0.77
+cap_from_youtube==0.0.10
+numpy==1.24.4
+opencv_contrib_python==4.9.0.80
+opencv_python==4.10.0.82
+streamlit==1.37.0
+ultralytics==8.2.41
