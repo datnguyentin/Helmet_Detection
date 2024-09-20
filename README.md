@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/79cdfc21-e2b5-4050-a751-f7ff99d38bd4
 
 
 ----------------------------------------------------
-### ![programming](https://github.com/user-attachments/assets/a2dc427f-1a99-4483-853a-f53c870be75d)Usage
+### ![programming](https://github.com/user-attachments/assets/a2dc427f-1a99-4483-853a-f53c870be75d) Usage
 In order to run the project, please install the requirements
 
 ```
@@ -57,11 +57,15 @@ Pretrained Weights: [link](https://drive.google.com/drive/folders/1m8zH3VebDRmuK
 Full dataset is provided on Roboflow:<br />
 Helmet dataset: [link](https://universe.roboflow.com/datne/helmet_detection-jmhzi/dataset/3)<br />
 License_Plate dataset: [link](https://universe.roboflow.com/dataset-qwb4q/license_plate_recognition-ubpod/dataset/1)<br />
+
 Sample Images:<br />
-![Light_1_16085](https://github.com/user-attachments/assets/3ba2c2c7-ceee-460c-837b-f595a2e62c62)
+![image](https://github.com/user-attachments/assets/edbb0b15-acfd-4859-8150-2c67058ee633)
+
 Image in dataset<br />
 ![image](https://github.com/user-attachments/assets/1dc70c76-0d52-4233-b977-93113be92baa)
 Image with labeled
 
 ---------------------------------------------------
-### Credits
+### ![award](https://github.com/user-attachments/assets/7b2c5bcc-044b-4cb4-af26-f760b4176782) Credits
++ Ultralytics Team: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
++ Streamlit for UI: [https://github.com/streamlit/streamlit](https://github.com/streamlit/streamlit)
