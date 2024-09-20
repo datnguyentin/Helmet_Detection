@@ -9,7 +9,7 @@ import re
 #                 LOAD MODEL               #
 ############################################
 def load_helmet_detector():
-    model_path = "models/Helmet_Detector/best.pt"
+    model_path = "models/Helmet_Detector/v8/v8s/v8s.pt"
     helmet_model = YOLO(model_path, task = 'detect')
 
     return helmet_model, helmet_model.names

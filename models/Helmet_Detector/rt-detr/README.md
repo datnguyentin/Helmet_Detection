@@ -1,0 +1,1 @@
+Please Refer to Weights Folder provided to get the Real-time Detection Transformer Weights

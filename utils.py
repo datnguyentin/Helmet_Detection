@@ -121,7 +121,7 @@ def calculate_angle(coord_1, coord_2):
     delta_x = x2 - x1
     delta_y = y2 - y1
 
-    angle = 180 - abs(math.degrees(math.atan(delta_x, delta_y)))
+    angle = 180 - abs(math.degrees(math.atan2(delta_x, delta_y)))
 
     return angle
 

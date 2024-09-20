@@ -193,7 +193,7 @@ def process(video, run_option = "Continuous", app_running = False, frame_placeho
                         nhelmet_['confidence'] = conf
                         nhelmet_['violation_image'] = cv2.cvtColor(frame_copy, cv2.COLOR_BGR2RGB)
 
-
+        '''
         for key in plate_record.keys():
             display = plate_record[key]
             print("ID:", key)
@@ -201,6 +201,7 @@ def process(video, run_option = "Continuous", app_running = False, frame_placeho
                 if k != "pending_image":
                     print('\t' + k + ": ", v)                                                  #delete when done
         print('--------------------------------------------')
+        '''
 
         utils.visualize_image(frame, helmet_label_map, helmet_visualize_l, coord2id, plate_visualize_l)
 
