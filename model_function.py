@@ -9,13 +9,14 @@ import re
 #                 LOAD MODEL               #
 ############################################
 def load_helmet_detector():
-    model_path = "models/Helmet_Detector/v8/v8s/v8s.pt"
+    model_path = "models/Helmet_Detector/v8/v8s_ECA_B/v8s_ECA_B.pt"
+    print("Model's using: ECCAB")
     helmet_model = YOLO(model_path, task = 'detect')
 
     return helmet_model, helmet_model.names
 
 def load_plate_ocr():
-    model_path = "models/Yolo_plate/best.pt"
+    model_path = "models/Yolo_plate/v8s/plate_v8s.pt"
     plate_model = YOLO(model_path, task = 'detect')
 
     return plate_model, plate_model.names
