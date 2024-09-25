@@ -32,25 +32,25 @@ Pretrained Weights: [link](https://drive.google.com/drive/folders/1m8zH3VebDRmuK
 **B**: Attention modules integrated after backbone layers before concatenating (left).<br />
 
 
-| Models            | Image size    | Params(M)| mAP@0.5| mAP@0.5:0.95 |
-| -----------------:|:-------------:| --------:|-------:|-------------:|
-| YOLOv8s           | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_SA_N      | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_ECA_N     | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_CBAM_N    | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_Triplet_N | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_GAM_N     | 640x640       | 11.1     |0.972   | 0.984        |
+| Models            | Image size    | Params(M)| mAP@0.5| mAP@0.5:0.95 | FPS |
+| -----------------:|:-------------:| --------:|-------:|-------------:|----:|
+| YOLOv8s           | 640x640       | 11.1     |0.972   | 0.860        | 71  |
+| YOLOv8s_SA_N      | 640x640       | 11.1     |0.974   | 0.858        | 65  |
+| YOLOv8s_ECA_N     | 640x640       | 13.8     |0.972   | 0.857        | 61  |
+| YOLOv8s_CBAM_N    | 640x640       | 11.6     |0.973   | 0.858        | 63  |
+| YOLOv8s_Triplet_N | 640x640       | 11.1     |0.975   | 0.864        | 68  |
+| YOLOv8s_GAM_N     | 640x640       | 11.1     |0.97`   | 0.856        | 68  |
 
 **N**: Attention modules integrated before detection layers (right).
 
-| Models            | Image size    | Params(M)| mAP@0.5| mAP@0.5:0.95 |
-| -----------------:|:-------------:| --------:|-------:|-------------:|
-| YOLOv8s           | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_SA_B      | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_ECA_B     | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_CBAM_B    | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_Triplet_B | 640x640       | 11.1     |0.972   | 0.984        |
-| YOLOv8s_GAM_B     | 640x640       | 11.1     |0.972   | 0.984        |
+| Models            | Image size    | Params(M)| mAP@0.5| mAP@0.5:0.95 | FPS |
+| -----------------:|:-------------:| --------:|-------:|-------------:|----:|
+| YOLOv8s           | 640x640       | 11.1     |0.972   | 0.860        | 71  |
+| YOLOv8s_SA_B      | 640x640       | 12.8     |0.970   | 0.851        | 62  |
+| YOLOv8s_GAM_B     | 640x640       | 13.8     |0.970   | 0.852        | 59  |
+| YOLOv8s_CBAM_B    | 640x640       | 13.0     |0.969   | 0.847        | 59  |
+| YOLOv8s_ECA_B     | 640x640       | 12.8     |0.973   | 0.861        | 65  |
+| YOLOv8s_Triplet_B | 640x640       | 12.8     |0.972   | 0.854        | 64  |
 
 ---------------------------------------------------
 ### ![analysis](https://github.com/user-attachments/assets/de756475-5233-4f18-88c0-479ed287062d) Dataset
@@ -63,7 +63,7 @@ Sample Images:<br />
 
 Image in dataset<br />
 ![image](https://github.com/user-attachments/assets/1dc70c76-0d52-4233-b977-93113be92baa)
-Image with labeled
+Image with labeled<br />
 
 ---------------------------------------------------
 ### ![award](https://github.com/user-attachments/assets/7b2c5bcc-044b-4cb4-af26-f760b4176782) Credits
