@@ -36,10 +36,10 @@ Pretrained Weights: [link](https://drive.google.com/drive/folders/1m8zH3VebDRmuK
 | -----------------:|:-------------:| --------:|-------:|-------------:|----:|
 | YOLOv8s           | 640x640       | 11.1     |0.972   | 0.860        | 71  |
 | YOLOv8s_SA_N      | 640x640       | 11.1     |0.974   | 0.858        | 65  |
-| YOLOv8s_ECA_N     | 640x640       | 13.8     |0.972   | 0.857        | 61  |
+| YOLOv8s_GAM_N     | 640x640       | 13.8     |0.972   | 0.857        | 61  |
 | YOLOv8s_CBAM_N    | 640x640       | 11.6     |0.973   | 0.858        | 63  |
-| YOLOv8s_Triplet_N | 640x640       | 11.1     |0.975   | 0.864        | 68  |
-| YOLOv8s_GAM_N     | 640x640       | 11.1     |0.97`   | 0.856        | 68  |
+| YOLOv8s_ECA_N     | 640x640       | 11.1     |0.975   | 0.864        | 68  |
+| YOLOv8s_Triplet_N | 640x640       | 11.1     |0.971   | 0.856        | 68  |
 
 **N**: Attention modules integrated before detection layers (right).
 
