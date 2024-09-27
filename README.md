@@ -23,8 +23,13 @@ streamlit run app.py
 ----------------------------------------------------
 
 ### 🌟 Architecture Details 
-In this project, besides vanilla YOLOv8s we also implemented attention mechanisms with two different structure
+In this project, besides vanilla YOLOv8s we also implemented attention mechanisms with two different structure <br />
 ![2attentionpos](https://github.com/user-attachments/assets/445206b4-d87d-42f2-941e-cde30cf0d830)
+
+All the attention modules implemented in ultralytics/nn/modules/conv.py <br />
+Or can be found separately in attention_modules.py <br />
+
+All the customized models config can be found in ultralytics/cfg/models/v8 <br />
 
 ---------------------------------------------------
 ### ⚖ Results and Pretrained Weights 
